@@ -7,7 +7,7 @@ class ApiController < ApplicationController
 	skip_before_filter  :verify_authenticity_token
 
 	$url = 'http://api.instagram.com/v1/tags/'
-	$version = '1.0.1'
+	$version = '1.1.0'
 
 	def cantidadPosts(tag, token)
 		respuesta = RestClient.get $url + tag + '?access_token=' + token
@@ -70,23 +70,29 @@ class ApiController < ApplicationController
 		token = params[:access_token].to_s
 		puts 'token: ' + token
 
-		cantidad = cantidadPosts(tag, token)
-		info = informacionPosts(obtenerPosts(tag, token))
+		if tag == "" || token == ""
+			final = {:error => 'Parámetros incorrectos. Se requiere de un "tag" y un "token"'}
+		
+				render json: final.to_json, status: 400
 
-		if cantidad != nil && info != nil
-			final = {:metadata =>  {:total => cantidadPosts(tag, token)},
-				:posts => informacionPosts(obtenerPosts(tag, token)),
-				:version => $version}
-	
-			render json: final.to_json, status: 200
 		else
-			final = {:metadata =>  {:total => cantidadPosts(tag, token)},
-				:posts => informacionPosts(obtenerPosts(tag, token)),
-				:version => $version, :error => "Problemas con la API de Instagram"}
-	
-			render json: final.to_json, status: 200
-		end
+			cantidad = cantidadPosts(tag, token)
+			info = informacionPosts(obtenerPosts(tag, token))
 
+			if cantidad != nil && info != nil
+				final = {:metadata =>  {:total => cantidadPosts(tag, token)},
+					:posts => informacionPosts(obtenerPosts(tag, token)),
+					:version => $version}
+		
+				render json: final.to_json, status: 200
+			else
+				final = {:metadata =>  {:total => cantidadPosts(tag, token)},
+					:posts => informacionPosts(obtenerPosts(tag, token)),
+					:version => $version, :error => "Problemas con la API de Instagram"}
+		
+				render json: final.to_json, status: 200
+			end
+		end
 		#excepciones
 		rescue Exception => e
 			render json: {}, status: 500
