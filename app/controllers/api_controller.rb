@@ -7,7 +7,7 @@ class ApiController < ApplicationController
 	skip_before_filter  :verify_authenticity_token
 
 	$url = 'http://api.instagram.com/v1/tags/'
-	$version = '1.1.0'
+	$version = '1.2.0'
 
 	def cantidadPosts(tag, token)
 		respuesta = RestClient.get $url + tag + '?access_token=' + token
