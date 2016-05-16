@@ -1713,3 +1713,127 @@ Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:24:08 -0
 Processing by ApiController#buscar as */*
   Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
 Completed 200 OK in 19227ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:41:14 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 6855ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:44:12 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7333ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:50:38 -0400
+
+SyntaxError (/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:72: syntax error, unexpected keyword_if, expecting ')'
+		if cantidad != nil && info != nil
+		  ^
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:81: syntax error, unexpected '=', expecting =>
+...	:version => $version, :error = "Problemas con la API de Ins...
+...	                              ^
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:81: syntax error, unexpected '}', expecting keyword_end
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/api_controller.rb:72: syntax error, unexpected keyword_if, expecting ')'
+  app/controllers/api_controller.rb:81: syntax error, unexpected '=', expecting =>
+  app/controllers/api_controller.rb:81: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/api_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.1ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.8ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:51:30 -0400
+
+SyntaxError (/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:72: syntax error, unexpected keyword_if, expecting ')'
+		if cantidad != nil && info != nil
+		  ^
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:81: syntax error, unexpected '=', expecting =>
+...	:version => $version, :error = "Problemas con la API de Ins...
+...	                              ^
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:81: syntax error, unexpected '}', expecting keyword_end
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/api_controller.rb:72: syntax error, unexpected keyword_if, expecting ')'
+  app/controllers/api_controller.rb:81: syntax error, unexpected '=', expecting =>
+  app/controllers/api_controller.rb:81: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/api_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.1ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.7ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:52:06 -0400
+
+SyntaxError (/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:82: syntax error, unexpected '=', expecting =>
+...	:version => $version, :error = "Problemas con la API de Ins...
+...	                              ^
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:82: syntax error, unexpected '}', expecting keyword_end
+/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/api_controller.rb:82: syntax error, unexpected '=', expecting =>
+  app/controllers/api_controller.rb:82: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/api_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.8ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.4ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:52:32 -0400
+
+SyntaxError (/home/criscastillo/Tarea2-TDI/Tarea2/app/controllers/api_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/api_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.4ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/criscastillo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:53:48 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 13882ms (Views: 0.3ms | ActiveRecord: 0.0ms)
