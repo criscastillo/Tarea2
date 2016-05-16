@@ -1,0 +1,51 @@
+  [1m[36m (417.6ms)[0m  [1mDROP DATABASE IF EXISTS "tarea2_test"[0m
+  [1m[35m (654.2ms)[0m  CREATE DATABASE "tarea2_test" ENCODING = 'unicode'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+---------------------------------------------------
+ApiControllerTest: test_recibir_bien_los_parámetros
+---------------------------------------------------
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7087ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (222.9ms)[0m  [1mDROP DATABASE IF EXISTS "tarea2_test"[0m
+  [1m[35m (598.7ms)[0m  CREATE DATABASE "tarea2_test" ENCODING = 'unicode'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-------------------------------------
+ApiControllerTest: test_api_funcional
+-------------------------------------
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 8273ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (226.7ms)[0m  [1mDROP DATABASE IF EXISTS "tarea2_test"[0m
+  [1m[35m (609.8ms)[0m  CREATE DATABASE "tarea2_test" ENCODING = 'unicode'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+------------------------------------------------
+ApiControllerTest: test_parametros_incorrectos_1
+------------------------------------------------
+Processing by ApiController#buscar as HTML
+  Parameters: {"access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 773ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+-----------------------------------------------------------
+ApiControllerTest: test_respuesta_valida_de_conteo_de_posts
+-----------------------------------------------------------
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+---------------------------------------------------
+ApiControllerTest: test_funcionamiento_correcto_api
+---------------------------------------------------
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 19497ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+------------------------------------------------
+ApiControllerTest: test_parametros_incorrectos_2
+------------------------------------------------
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"instachile"}
+Completed 500 Internal Server Error in 3911ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
