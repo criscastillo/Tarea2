@@ -1653,3 +1653,63 @@ Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 19:08:13 -0
 Processing by ApiController#buscar as */*
   Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
 Completed 200 OK in 3077ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 20:48:50 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7924ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 20:51:58 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 6825ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 20:56:32 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7247ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 20:59:55 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 7209ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:01:55 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 6961ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:02:04 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7499ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:05:29 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 10442ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:14:31 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7968ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:22:07 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 7494ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 21:24:08 -0400
+Processing by ApiController#buscar as */*
+  Parameters: {"tag"=>"instachile", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 19227ms (Views: 0.3ms | ActiveRecord: 0.0ms)
